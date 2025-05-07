@@ -13,7 +13,7 @@ const Body = () => {
   useEffect(() => {
     const typed = new Typed(".typed-placeholder", {
       strings: [
-         "Run 'info' displays view about me",
+         "Run 'about' displays view about me",
         "Run 'help' for more information",
         "Run 'clear' to clear the screen"
       ],
@@ -32,7 +32,8 @@ const Body = () => {
     if (e.key === "Enter") {
       const trimmed = command.trim().toLowerCase();
       switch (trimmed) {
-        case "about":
+        case "info":
+          case "about": // Add this line
           setActiveSection("about");
           break;
         case "projects":
