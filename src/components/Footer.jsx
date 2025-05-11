@@ -6,6 +6,7 @@ const Footer = () => {
       <div className="text-center text-sm md:text-base">
         <p>Made with ❤️ by Rakhi</p>
       </div>
+      
     </footer>
   );
 };

@@ -27,6 +27,7 @@ const Nav = () => {
         </a>
       </div>
       <div className="lg:col-span-4 lg:order-3 col-span-6 flex sm:justify-start lg:justify-end md:justify-end xl:justify-end 2xl:justify-end ">
+      
         <a href="#" target="_blank" className="text-green-400 font-source tracking-wide">/blogs</a>
         <a href="https://t.me/iamdhakrey" target="_blank" className="text-green-400 font-source tracking-wide">/telegram</a>
         <a href="https://github.com/iamdhakrey/" target="_blank" className="text-green-400 font-source tracking-wide">/github</a>
@@ -40,5 +41,6 @@ const Nav = () => {
     </nav>
   );
 };
+
 
 export default Nav;
